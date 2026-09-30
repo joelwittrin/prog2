@@ -45,6 +45,7 @@ def approximate_pi(n):
     plt.show()
     plt.title(f'{n} points with pi ≈ {pi}')
 
+    print(f'Estimated pi for {n} dots: {pi}')
     return pi
 
 
@@ -127,6 +128,8 @@ def main():
     dots = [1000, 10000, 100000]
     for n in dots:
         approximate_pi(n)
+        
+    print('\n')
 
 
     # Exc2
@@ -181,3 +184,8 @@ def main():
 
 if __name__ == '__main__':
 	main()
+
+'''
+ssh jowi.6917@gullviva.it.uu.se
+'''
+
